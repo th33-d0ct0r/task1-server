@@ -11,7 +11,7 @@ router.use(bodyParser.json());
 
 router.use(
     cors({
-        origin: "https://task1-ten-pi.vercel.app",
+        origin: true,
         methods: "GET, POST, PUT, DELETE",
         credentials: true
     })
