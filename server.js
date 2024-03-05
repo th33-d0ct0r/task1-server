@@ -25,7 +25,7 @@ app.use("/signup", signUpRouter)
 
 app.use(
     cors({
-        origin: "https://task1-ten-pi.vercel.app/",
+        origin: "https://task1-ten-pi.vercel.app",
         methods: "GET, POST, PUT, DELETE",
         credentials: true
     })
